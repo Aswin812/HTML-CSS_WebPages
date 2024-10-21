@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    box-shadow: 0 3px 10px rgb(175, 174, 174);
+}
+
+.box-1 .child-1 h1{
+    display: inline-block;
+}
+
+.box-1 .child-1 .h-1{
+    color: blue;
+}
+
+.box-1 .child-1 .h-2{
+    color: red;
+}
+
+.toggle{
+    width: 100%;
+    height: 100vh;
+}
+
+.toggle label{
+    width: 50px;
+    height: 24px;
+    background-color: rgb(49, 49, 49);
+    border-radius:25px;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 26px;
+    z-index: 1;
+}
+
+.toggle label::before{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-color: #fff;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+input:checked + label{
+    background-color: white;
+    border: 1px solid black;
+}
+
+input:checked + label::before{
+    background-color: rgb(49, 49, 49);
+    margin: 1px;
+    transition: 0.5s;
+    transform: translateX(25px);
+}
+
+.darkmode{
+    width: 100%;
+    height: 100vh;
+}
+
+input:checked ~ .darkmode {
+    background-color: rgb(26, 26, 29);
+}
+
+input:checked ~ .darkmode p{
+    color: white;
+}
+
+input:checked ~ .darkmode .h-1 , input:checked ~ .darkmode .box-1 .child-2 a{
+    color: aqua;
+}
+
+input:checked ~ .darkmode  .button-1{
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+}
+
+input:checked ~ .darkmode .button-2{
+    color: blue;
+    border: 1px solid blue;
+    background-color: transparent;
+}
+
+.toggle input{
+    display: none;
+}
+
+.box-1 .child-2 a{
+    padding: 25px;
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box-1 .child-2 a:hover{
+    color: red;
+}
+
+.box-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 0 0 0;
+}
+
+.box-2 .child-1{
+    padding: 100px 0 0 0;
+}
+
+.box-2 .child-1 h1{
+    font-size: 45px;
+}
+
+.box-2 .h-1{
+    color: blue;
+}
+
+.box-2 .h-2{
+    color: red;
+}
+
+.box-2 .child-1 p{
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+.box-2 .button-1{
+    padding: 12px;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+.box-2 .button-2{
+    padding: 12px;
+    border: none;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.box-2 .child-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-2 .child-3{
+    width: 425px;
+    height: 275px;
+    border-top: 20px solid rgb(0, 0, 179);
+    border-right: 15px solid #EA2027;
+    border-left: 15px solid #EA2027;
+    border-bottom: 20px solid #024dda ;
+}
+
+.box-2 .child-4{
+    width: 100%;
+    height: 100%;
+    border-top: 20px solid #024dda;
+    border-right: 15px solid #EA2027;
+    border-left: 15px solid #EA2027;
+    border-bottom: 20px solid rgb(0, 0, 179);
+}
+
+.box-2 .child-4 iframe{
+    cursor: pointer;
+}
+
+.box-2 .child-5{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    border-top: 5px solid red;
+    border-left: 5px solid blue;
+    margin: 20px;
+}
+    

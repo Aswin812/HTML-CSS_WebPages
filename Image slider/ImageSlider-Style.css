@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 48%;
+    padding: 0 15px;
+}
+
+.btns button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}

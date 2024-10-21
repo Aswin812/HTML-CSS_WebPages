@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #444;
+}
+
+.box{
+    width: 330px;
+    height: 130px;
+    border: 5px solid rgb(46, 46, 46);
+    background-color: red;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 20px 15px red;
+}
+
+.imoji{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 1.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#input{
+    width: 0;
+    height: 0;
+}
+
+#input:checked + .box .imoji{
+    transform: translateX(200px);
+}
+
+#input:checked + .box{
+    box-shadow: 0px 0px 20px 15px rgb(28, 252, 28);
+    background-color: rgb(28, 252, 28);
+}
+
+
+.eye{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 25px;
+}
+
+.eye div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.mouth{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    top: 58%;
+    overflow: hidden;
+}
+
+.box-1{
+    width: 60px;
+    height: 12px;
+    background-color: blue;
+    position: absolute;
+    overflow: hidden;
+    transition: 1s;
+}
+
+#input:checked + .box .mouth .box-1{
+    display: none;
+    transition: 1s;
+}
+
+.mouth .box-2{
+    position: absolute;
+    top: -30px;
+    width: 60px;
+    height: 0px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: 1s;
+    transform-origin: center;
+}
+
+
+#input:checked + .box .mouth .box-2{
+    width: 60px;
+    height: 60px;
+    top: -30px;
+}
+
