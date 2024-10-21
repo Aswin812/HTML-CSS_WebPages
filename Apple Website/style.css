@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+    background-color: #F0F0F2;
+}
+
+.head span{
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.head span:hover{
+    border-bottom: 1px solid black;
+}
+
+.navBox{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDD8D0;
+}
+
+.navBox i{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.navBox span{
+    margin: 0 20px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.navBox span:hover{
+    border-bottom: 1px solid black;
+}
+
+.box-1{
+    width: 100%;
+    text-align: center;
+}
+
+.box-1 h1{
+    margin: 30px ;
+}
+
+.box-1 .products{
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-1 .products img{
+    margin-bottom: 20px;
+}
+.box-1 .products p{
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.box-1 .products p:hover{
+    border-bottom: 1px solid black;
+}
+
+.box-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 120px;
+    margin: 50px 0;
+}
+
+.box-2 div{
+    width: 290px;
+    height: 160px;
+    background-color: #F5F5F7;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+}
+
+.box-2 div img{
+    width: 80px;
+}
+
+.box-2 p{
+    cursor: pointer;
+}
+
+.box-2 p:hover{
+    text-decoration: underline;
+}
+
+.box-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.box-3 div{
+    width: 70%;
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.box-3 i{
+    color: gray;
+    font-size: 18px;
+}
+
+.box-3 div input{
+    border: none;
+    margin-left: 30px;
+    font-size: 17px;
+    outline: none;
+    width: 80%;
+    height: 90%;
+}
+
+.box-4{
+    width: 100%;
+    padding-left: 200px;
+    margin: 40px 0;
+}
+
+.box-4 .div{
+    display: flex;
+    margin: 30px 0 0 -10px;
+}
+
+.box-4 .div div{
+    width: 300px;
+    height: 450px;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.box-4 .div div img{
+    width: 300px;
+}
+
+.box-4 .div div p{
+    margin: 20px 0;
+}
+
+.box-4 .div div span{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box-4 .div div span:hover{
+    border-bottom: 2px solid blue;
+}
+
+.box-4 .div div img:hover{
+    width: 310px;
+    transition: 0.8s;
+}
+
+.box-5{
+    width: 100%;
+    height: 400px;
+    padding: 30px 0;
+    background-color: #e6d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.box-5 table{
+    width: 70%;
+    height: 250px;
+    text-align: left;
+}
+
+.box-5 hr{
+    width: 70%;
+    margin: 40px 0 10px 0;
+}
+
+.box-5 pre{
+    margin-left: -410px;
+}
