@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.box-1{
+    background-color: #3361C1 ;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: white;
+}
+
+.box-1 img{
+    position: absolute;
+
+}
+
+.box-1 .img-1{
+    width: 45%;
+    opacity: 10%;  
+    top: -25%; 
+}
+
+.box-1 .img-2{
+    width: 100%;
+}
+
+.box-1 .star-1 .line-1{
+    position: absolute;
+    top: 7%;
+    left: 43.5%;
+    width: 90px;
+}
+
+
+
+.box-1 .star-1{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 .star-1 div{
+    text-align: center;
+    color: yellow;
+}
+
+.box-1 .star-1 .line-3{
+    margin: 10px;
+}
+
+.box-1 .star-1 .line-2 span{
+    margin: 60px;
+}
+
+.box-1 .star-1 .line-3 span{
+    margin: 100px;
+}
+
+.box-1 h1{
+    z-index: 1;
+    padding: 20px;
+    font-size: 31px;
+}
+
+.box-1 p{
+    line-height: 25px;
+    font-size: 13px;
+}
+
+
+.box-1 .star-2{
+    margin-top: 30px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.box-1 .star-2 div{
+    text-align: center;
+    color: yellow;
+}
+
+.box-1 .star-2 .line-1 span{
+    margin: 100px;
+}
+
+.box-1 .star-2 .line-1{
+    margin: 10px;
+}
+
+.box-1 .star-2 .line-2 span{
+    margin: 50px;
+}
+
+
+.box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    background-color: #EDEDED;
+    padding: 30px;
+}
+
+.box-2 h1{
+    margin: 20px;
+}
+
+.box-2 p{
+    margin: 15px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #F9FAFF;
+}
+
+.box-3 p{
+    line-height: 25px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.box-3 ul{
+    padding-left: 60px;
+}
+
+.box-3 ul li{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-3 .para{
+    text-align: left;
+}

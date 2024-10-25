@@ -1,0 +1,121 @@
+
+body{
+    background-color:#222 ;
+    font-family: Arial;
+    color: white;
+}
+.container{
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.parent{
+    position: absolute;
+    background-color: #7077d8;
+    width: 570px;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+}
+.child{
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    width: 330px;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    color: gray;
+    border-radius: 0px 10px 10px 0px;
+}
+h1{
+    font-size: 100px;
+    position: absolute;   
+}
+.first{
+    font-size: 12px;
+    margin-top: 300px;
+}
+.button1{
+    background-color: #3B5998;
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(143, 141, 141);
+}
+.button2{
+    background-color: #66CAFE;
+    width: 175px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(145, 143, 143);
+}
+h2{
+    color: black;
+    font-size: 75px;
+    margin-top: 100px;
+}
+.child p{
+    font-size: 12px; 
+    display: inline;
+}
+.name{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 270px; 
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    outline: none;
+}
+.child a{
+    text-decoration: underline;
+    color: blue;
+    font-size: 12px;
+    cursor: pointer;
+}
+.box a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 55px;
+    color: gray;
+}
+#checkbox{
+    box-shadow: 0px 0px 2px 2px #65D23E;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    height: 80px;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+.button3{
+    background: linear-gradient(#a3f090,#5de42b);
+    border: none;
+    border-radius: 25px;
+    width: 85px;
+    color: white;
+    margin-left: 170px;
+    cursor: pointer;
+    height: 30px;
+}

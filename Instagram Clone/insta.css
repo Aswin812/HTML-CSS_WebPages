@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    flex-direction: column;
+}
+
+.container{
+    width: 360px;
+    height: 100%;
+    background-color:#111;
+    color: white;
+    overflow: auto;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.top{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top h1{
+    font-family: 'Satisfy', cursive;
+    font-weight: 200;
+}
+
+.icons i{
+    margin-left: 10px;
+}
+
+i{
+    cursor: pointer; 
+    color: white; 
+}
+
+.storys{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-left: 15px;
+}
+
+.storys::-webkit-scrollbar{
+    width: 0;
+}
+
+.storys div{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.storys .image{
+    min-width: 80px;
+    height: 80px;
+    border: 2px solid rgb(233, 95, 95);
+    border-radius: 50%;
+    margin: 10px;
+    scroll-snap-align: start;
+}
+
+.storys .img-1{
+    background-image: url(Image/alan\ walker.jpg);
+    background-size: cover;
+}
+
+.storys .img-2{
+    background-image: url(Image/infinity.jpg);
+    background-size: cover;
+}
+
+.storys .img-3{
+    background-image: url(Image/royalty.jpg);
+    background-size: cover;
+}
+
+.storys .img-4{
+    background-image: url(Image/unstoppable.jpg);
+    background-size: cover;
+}
+
+.id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.dp{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dp h2{
+    font-size: 14px;
+}
+
+.dp .img{
+    width: 30px;
+    height: 30px;
+    background-image: url(Image/profile.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+}
+
+.dp h2{
+    display: inline-block;
+}
+
+.option{
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.option span{
+    font-size: 30px;
+    line-height: 7px;
+}
+
+.post img{
+    overflow: hidden;
+}
+
+.posts{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    margin-bottom: 15px;
+}
+
+.posts::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.react{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.react div{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.rotate{
+    transform: rotateY(160deg);
+}
+
+.like{
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 360px;
+    height: 50px;
+    z-index: 1;
+    position: fixed;
+    background-color: #111;
+    bottom: 0;
+}
+
+.footer .instaProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(Image/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 25%;
+}

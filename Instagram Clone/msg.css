@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #777;
+}
+
+.container{
+    width: 360px;
+    height: 100%;
+    background-color:#111;
+    color: white;
+    overflow: auto;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container::-webkit-scrollbar{
+    width: 0;
+}
+
+i{
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 50px;
+}
+
+.head h3{
+    margin-right: 90px;
+    font-size: 14px;
+}
+
+.search{
+    height: 30px;
+    width: 85%;
+    background-color: #333;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.search input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.notes{
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    align-items: center;
+}
+
+.notes::-webkit-scrollbar{
+    width: 0;
+}
+
+.notes .note{
+    text-align: center;
+}
+
+.notes .note span{
+    font-size: 11px;
+}
+
+
+.notes .img{
+    width: 80px;
+    height: 80px;
+    background: #000;
+    margin: 10px 20px 0 20px;
+    border-radius: 50%;
+}
+
+.notes .img1{
+    background-image: url(Image/alan\ walker.jpg);
+    background-size: cover;
+}
+
+.notes .img2{
+    background-image: url(Image/infinity.jpg);
+    background-size: cover;
+}
+
+.notes .img3{
+    background-image: url(Image/royalty.jpg);
+    background-size: cover;
+}
+
+.notes .img4{
+    background-image: url(Image/unstoppable.jpg);
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 13px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.msg .dp{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  
+}
+
+.msg .dp-1{
+    background-image: url(Image/spiderman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .dp-2{
+    background-image: url(Image/groot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .dp-3{
+    background-image: url(Image/obito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% ;
+}
+
+.msg .dp-4{
+    background-image: url(Image/tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .dp-5{
+    background-image: url(Image/anime.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .dp-6{
+    background-image: url(Image/infinity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .dp-7{
+    background-image: url(Image/royalty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+
+.msg .text{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.msg .text span{
+    display: block;
+}
+

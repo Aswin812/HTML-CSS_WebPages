@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: linear-gradient(to top right,#5C69EC,#3DBCDF);
+    height: 550px;
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.heading{
+    height: 40px;
+    padding: 10px;
+    display: inline;
+    position: absolute;
+    right: 50px;
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    padding:  10px 15px;
+    font-size: 12px;
+    margin: 2px;
+    width: 100%;
+}
+
+ul li:hover{
+    outline: 1px solid white;   
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+h3{
+    display: inline-block;
+    margin: 25px 60px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.box-1{
+    width: 350px;
+    margin: 70px 0 0 60px;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 45px;
+}
+
+p{
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+
+a{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.box-1 button{
+    padding: 10px;
+    background-color: #3ECB4B;
+    border-radius: 25px;
+    width: 125px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.box-2{
+    position: absolute;
+    top: 20%;
+    right: 70px;
+    background-color: white;
+    height: 330px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0;
+}
+
+h2{
+   color: rgb(26, 25, 25);
+}
+
+.box-2 input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    width: 225px;
+    background-color: #F2F2F2;
+    outline: none;
+}
+
+.box-2 select{
+    width: 245px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #F2F2F2 ;
+    outline: none;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.box-2 button{    
+    width: 250px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #2F83FF;
+    color: white;
+    cursor: pointer;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    clip-path: polygon(100% 0,40px 100%,100% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
